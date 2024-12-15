@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.9.0",
     "aos": "^2.3.4",
     "file-loader": "^6.2.0",
     "firebase": "^9.10.0",
